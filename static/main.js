@@ -56,6 +56,7 @@ document.getElementById('sub').addEventListener('click', () => {
                         subscribe = sub;
                         document.getElementById('unsub').disabled = false;
                         document.getElementById('sub').disabled = true;
+                        document.getElementById('push').disabled = false;
                     })
             })
 
